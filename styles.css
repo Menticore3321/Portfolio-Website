@@ -66,7 +66,6 @@ body {
     font-size: 1.2em;
     position: relative;
     transition: color 0.3s ease, transform 0.3s ease;
-    font-family: 'Lora', serif;
 }
 
 .nav-links a::after {
@@ -360,8 +359,8 @@ header::before {
     }
 
     .swiper-slide {
-        width: 90%;
-        max-width: 90%; /* Ensure the slides fit comfortably on small screens */
+        width: 100%;
+        /* max-width: 100%; Ensure the slides fit comfortably on small screens */
     }
 
     .swiper-slide iframe {
